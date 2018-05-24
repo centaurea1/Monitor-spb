@@ -1,0 +1,104 @@
+.price {
+    width: 100%;
+    height: 300px;
+    background: url('../image/controlimphome.jpg');
+    background-position: 60% -47%;
+}
+
+.btn-none-bg {
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
+
+.footer {
+    background: #0E0028;
+    color: white;
+}
+
+.btn-bg {
+    background: #290076;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.gallery .card {
+    min-width: 22%;
+}
+
+.gallery .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    margin-bottom: 100px;
+}
+
+.header .navbar .navbar-brand {
+    color: #290076;
+}
+
+.form .form-group {
+    display: inline-block;
+    width: 47%;
+}
+
+.form .textarea {
+    display: inline-block;
+    width: 47%;
+}
+
+.services .work {
+    width: 400px;
+}
+
+.services:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.services .advantage li:before {
+    content: "";
+    background: url('../image/004-checked.svg') no-repeat;
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-right: 5px;
+    margin-left: -30px;
+}
+
+.contact .icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url('../image/sprite.png') no-repeat;
+}
+
+.contact .adress-icon {
+    background-position: 0 0;
+}
+
+.contact .tel-icon {
+    background-position: 0 50%;
+}
+
+.contact .email-icon {
+    background-position: 0 100%;
+}
+
+.contact .adress,
+.contact .tel,
+.contact .email {
+    display: inline-block;
+}
+
+.contact .adress-set {
+    width: 49%;
+}
+
+.footer {
+    clear: both;
+}
