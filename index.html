@@ -48,11 +48,11 @@
                         <a class="nav-link" href="/contacts.html">Контакты</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2 d-none" type="search" placeholder="Поиск" aria-label="Search">
-                    <button class="btn btn-search" type="submit">
-                            <img src="image/001-magnifying-glass.svg" width="20" height="20" alt="search">
-                    </button>
+                <button class="btn search-show" id="search-show" type="submit" onclick="show1();">
+                    <img class="mr-2" src="image/001-magnifying-glass.svg" width="20" height="20" alt="search"></button>
+                <form class="form-inline my-2 my-lg-0" id="search" style="display: none;">
+                    <input class="form-control mr-sm-2" id="form-search" type="search" placeholder="Поиск" aria-label="Search">
+                    <button class="btn btn-search" type="submit">Поиск</button>
                 </form>
             </div>
         </nav>
@@ -213,6 +213,13 @@
                 <a href="#" class="text-white">Создание сайта</a> - TrendSpb</small>
         </p>
     </footer>
+
+    <script>
+        function show1() {
+            document.getElementById('search').style.display = 'block';
+            document.getElementById('search-show').style.display = 'none';
+        }
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>

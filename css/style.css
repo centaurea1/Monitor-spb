@@ -35,6 +35,13 @@ body {
 
 .header .btn-search {
     background: none;
+    border: 1px solid #290076;
+    color: #290076;
+
+}
+
+.header .search-show {
+    background: none;
 }
 
 .btn {
